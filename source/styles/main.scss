@@ -1,0 +1,333 @@
+
+//
+// Primitives
+//
+
+// Colors
+//
+
+// Brand colors
+$turquoise-50: rgb(238 255 253);
+$turquoise-100: rgb(198 255 250);
+$turquoise-200: rgb(142 255 247);
+$turquoise-300: rgb(77 251 242);
+$turquoise-400: rgb(25 232 228);
+$turquoise-500: rgb(0 187 186);
+$turquoise-600: rgb(0 161 164);
+$turquoise-700: rgb(2 128 131);
+$turquoise-800: rgb(8 99 103);
+$turquoise-900: rgb(12 82 85);
+$turquoise-950: rgb(0 48 52);
+$navy-50: rgb(239 247 255);
+$navy-100: rgb(219 236 254);
+$navy-200: rgb(192 222 253);
+$navy-300: rgb(148 203 252);
+$navy-400: rgb(97 173 249);
+$navy-500: rgb(61 140 244);
+$navy-600: rgb(39 111 233);
+$navy-700: rgb(31 89 214);
+$navy-800: rgb(31 73 174);
+$navy-900: rgb(26 54 115);
+$navy-950: rgb(24 40 83);
+$cyan-50: rgb(240 249 255);
+$cyan-100: rgb(225 242 253);
+$cyan-200: rgb(188 228 251);
+$cyan-300: rgb(129 208 248);
+$cyan-400: rgb(68 187 243);
+$cyan-500: rgb(20 160 227);
+$cyan-600: rgb(8 128 193);
+$cyan-700: rgb(7 102 157);
+$cyan-800: rgb(11 87 129);
+$cyan-900: rgb(15 72 107);
+$cyan-950: rgb(10 46 71);
+$terracotta-50: rgb(253 244 243);
+$terracotta-100: rgb(252 231 228);
+$terracotta-200: rgb(250 212 206);
+$terracotta-300: rgb(245 183 172);
+$terracotta-400: rgb(237 140 124);
+$terracotta-500: rgb(227 114 95);
+$terracotta-600: rgb(205 75 53);
+$terracotta-700: rgb(172 60 41);
+$terracotta-800: rgb(143 52 37);
+$terracotta-900: rgb(119 49 37);
+$terracotta-950: rgb(64 22 15);
+$medium-navy-50: rgb(240 248 254);
+$medium-navy-100: rgb(222 238 251);
+$medium-navy-200: rgb(196 227 249);
+$medium-navy-300: rgb(155 208 245);
+$medium-navy-400: rgb(108 182 238);
+$medium-navy-500: rgb(73 153 232);
+$medium-navy-600: rgb(52 126 220);
+$medium-navy-700: rgb(40 97 187);
+$medium-navy-800: rgb(41 85 164);
+$medium-navy-900: rgb(38 74 130);
+$medium-navy-950: rgb(28 46 79);
+$light-navy-50: rgb(241 245 253);
+$light-navy-100: rgb(224 233 249);
+$light-navy-200: rgb(201 217 244);
+$light-navy-300: rgb(164 193 236);
+$light-navy-400: rgb(106 151 223);
+$light-navy-500: rgb(88 129 217);
+$light-navy-600: rgb(68 102 204);
+$light-navy-700: rgb(58 84 187);
+$light-navy-800: rgb(53 70 152);
+$light-navy-900: rgb(47 61 121);
+$light-navy-950: rgb(33 39 74);
+$neutral-50: rgb(246 246 246);
+$neutral-100: rgb(228 228 228);
+$neutral-200: rgb(215 215 215);
+$neutral-300: rgb(197 196 196);
+$neutral-400: rgb(186 185 185);
+$neutral-500: rgb(169 167 167);
+$neutral-600: rgb(154 152 152);
+$neutral-700: rgb(120 119 119);
+$neutral-800: rgb(93 92 92);
+$neutral-900: rgb(71 70 70);
+$neutral-950: rgb(53 60 60);
+$yellow-50: rgb(255 250 238);
+$yellow-200: rgb(255 230 169);
+$yellow-500: rgb(255 205 84);
+$yellow-700: rgb(214 170 64);
+$yellow-900: rgb(127 102 41);
+$green-50: rgb(230 246 237);
+$green-200: rgb(128 210 168);
+$green-500: rgb(0 165 81);
+$green-700: rgb(0 139 68);
+$green-900: rgb(0 82 40);
+$red-50: rgb(255 241 242);
+$red-200: rgb(255 174 191);
+$red-500: rgb(218 30 40);
+$red-700: rgb(189 22 31);
+$red-900: rgb(108 14 19);
+
+
+// Neutrals
+$neutral-black: #231E33;
+$neutral-900: #474646;
+$neutral-800: #5D5C5C;
+$neutral-700: #787777;
+$neutral-600: #9A9898;
+$neutral-500: #A9A7A7;
+$neutral-400: #BAB9B9;
+$neutral-300: #C5C4C4;
+$neutral-200: #D7D7D7;
+$neutral-100: #e4e4e4;
+$neutral-50: #F6F6F6;
+$neutral-white: #FFFFFF;
+
+// Size
+
+
+//
+// Tokens
+//
+
+// Typograhpy
+$Text-color-Dark: $neutral-black;
+$Link-color: $medium-navy-700;
+$Text-size-default: 16px;
+$Text-size-sm: 14px;
+$Letter-spacing: -0.15px;
+$Line-height-default: 24px;
+$Linge-height-sm: 20px;
+
+// Surfaces
+$Response-bkg-color-spark: $neutral-50;
+$Response-bkg-color-user: $neutral-white;
+
+
+
+
+// Fonts
+@import 'fonts';
+
+
+body,p,h1,h2,h3,h4,h5,h6 {
+  font-family: ElevanceSans,serif;
+  color: $Text-color-Dark;
+  text-align: left;
+  letter-spacing: $Letter-spacing;
+  font-feature-settings: 'clig' off, 'liga' off;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-size: 12px;
+}
+h6 {
+  font-size: 11px;
+}
+
+p {
+  font-weight: 500;
+  color: $Text-color-Dark;
+  font-size: $Text-size-default;
+  text-align: left !important;
+  line-height: $Line-height-default;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+a {
+  text-decoration: none;
+  color: $Link-color;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+ul, ol {
+  padding: 0 0 0px 16px;
+  margin: 0;
+  li {
+    padding: 0 4px 8px 0;
+    ul, ol {
+        padding: 8px 0px 0px 8px;
+        li {
+          padding: 4px 8px 4px 0;          
+          &:nth-last-of-type() {
+            padding-bottom: 0px;
+          }
+        }
+    }
+    ol li {
+      margin-left: 4px;
+      padding-left: 8px;
+    }
+  }
+}
+ul {
+  list-style-type: square;
+  ul {
+    list-style-type: none;
+    li::before {
+      content: "-  ";   
+      padding-right: 8px;
+      padding-left: 4px;      
+    }
+    padding-left: 0px !important;
+  }
+}
+
+hr {
+  border-top: solid 1px $neutral-100;
+  width: 100%;
+}
+.response {
+  hr {
+    border-top-color: $neutral-300 !important;
+  }
+  blockquote hr {
+    border-top-color: $neutral-100;
+  }
+}
+
+
+.message-row{
+  &.response {
+    background: $Response-bkg-color-spark;
+  }
+  &.prompt {
+    background: $Response-bkg-color-user;
+  }
+
+  .message-container {
+
+    h4 {
+        padding: 0;
+        margin: 0;
+        font-size: $Text-size-sm;
+      }
+    & p:first-of-type { 
+      margin-top: 0px;
+    }
+    pre, pre p, pre a {
+      font-weight: 500;
+      font-size: $Text-size-sm;
+      letter-spacing: $Letter-spacing;
+      text-align: left !important;
+      padding: 0;
+    }
+    blockquote, pre {
+      display: flex;
+      align-items: stretch;
+      padding: 16px;
+      flex-direction: column;
+      height: auto;
+      gap: 8px;
+      border-Radius: 4px;
+      background: #FFF;
+      font-size: $Text-size-sm;
+      line-height: $Linge-height-sm;
+      letter-spacing: $Letter-spacing;  
+      margin: 0;
+      
+
+      ul, ol {
+        margin: 0;
+        li {
+          padding-bottom: 4px;
+            ol {
+              li {
+                padding-right: 8px;
+                padding-left: 8px;
+                margin-left: 4px;
+                
+              }
+            }
+            ol, ul {
+              li {
+                padding-bottom: 0px;
+              }
+            }
+          }
+        }
+
+        p {
+          align-self: stretch;
+          font-size: $Text-size-sm;             
+          flex: 1 0 0;
+          margin: 0;
+        }
+
+    }
+    blockquote p a:first-of-type {
+      font-size: $Text-size-default !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: $Linge-height-sm;
+      letter-spacing: $Letter-spacing;
+    }
+    
+
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    gap: 16px;
+    align-self: stretch;
+    max-width: 748px;
+    min-width: 0px;
+    margin: 0px auto;
+  }
+}
